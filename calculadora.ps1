@@ -56,7 +56,8 @@ do {
     Write-Host "2. Restar"
     Write-Host "3. Multiplicar"
     Write-Host "4. Dividir"
-    Write-Host "5. Salir"
+    Write-Host "5. Recoger datos nuevos"
+    Write-Host "6. Salir"
     
     $opcion = Read-Host "Indica la opcion que desea ejecutar: "
 
@@ -74,11 +75,12 @@ do {
             echo $sol
            
         }
-        "4" {
-            $sol = $num1 / $num2
-            echo $sol
-        }
         "5" {
+            $num1=recogerdatos #llama a la funcion y el numero 1 se pasa al que devuelve la funcion
+            $num2=recogerdatos
+        }
+
+        "6" {
             break
         }
         default {
