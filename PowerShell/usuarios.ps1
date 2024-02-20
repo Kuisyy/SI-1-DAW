@@ -38,7 +38,7 @@ do {
             Write-Host "Saliendo del programa..."
         }
         default {
-            Write-Host "Opción no valida. Por favor, seleccione una opción valida."
+            Write-Host "Opción no valida. Por favor, seleccione una opcion valida."
         }
     }
 } while ($opcion -ne "4")
