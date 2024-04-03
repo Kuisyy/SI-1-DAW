@@ -48,3 +48,6 @@ case $opcion in
         echo "Opcion invalida"
         ;;
 esac
+
+echo "Fin del programa"
+read fin
