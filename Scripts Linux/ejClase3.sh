@@ -13,6 +13,6 @@ fecha=$(date +%Y-%m-%d)
 
 nombreArchivo="$fecha.$directorio.tar.gz"
 
-tar -czf "$nombreArchivo" "$directorio"    #-c se esta creabd -z gzip y -fespecifica el nombre del archivo
+tar -czf "$nombreArchivo" "$directorio"    #-c se esta creando -z gzip y -f especifica el nombre del archivo
 
 echo "Archivo comprimido creado: $nombreArchivo"
