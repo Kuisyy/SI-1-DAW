@@ -1,3 +1,6 @@
-Realizar un script que dado un directorio, cree un archivo tar comprimido con gzip y con nombre igual a la fecha en formato yyyy-mm-dd seguido del nombre del directorio acabado en .tar.gz. Ejemplo: aplicado sobre la carpeta tmp obtendríamos 2014-04031.tmp.tar.gz
-Realizar un script que dado un número indique si es o no divisible entre 101. Si no se proporciona un número debe mostrar cómo usar el programa.
-Realziar un script que permita adivinar el usuario cual es su PID. El script pide un numero la usuario y cada vez que lo haga debe indicar al usuario si el PID es mayor o menor que el número introducido.Cuando se adivine el valor,se deben mostrar los intentos empleados.
+Guion de Shell que genere un fichero llamado listaetc que contenga los ficheros con permiso de lectura que haya en el directurio/etc
+Hace un guion de shell que, partiendo del fichero generado en el fichero anteriro, muestre todos los ficheros del directorio/etc que contenga la palabra ¨procmail¨ (u otra cualquier de vuestra eleccion)
+Hacer un guion de shell que cuente cuantos ficheros y cuantos directorios hay en el directorio pasado como argumento
+Hacer un guion de Shell que compruebe si existe el directorio pasado como argumento dentro del directorio activo. En caso de que exista, que diga si no esta vacio
+Hacer un guion de Shell que copie rodos los ficheros del directorio actual en un directorio llamado csg.Si el directorio no existe el guion lo debe de crear
+Hacer un script que muestre el fichero dek directorio activo con mas lineas.
