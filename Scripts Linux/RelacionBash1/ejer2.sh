@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Dame el primer número:"
 read num1
 

@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Fecha actual" 
 date
 echo "Nombre de usuario actual" 
